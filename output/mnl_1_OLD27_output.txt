@@ -1,0 +1,352 @@
+Model run using Apollo for R, version 0.2.5 on Windows by Eranga Wettewa 
+www.ApolloChoiceModelling.com
+
+Model name                       : mnl_1
+Model description                : MNL model with ebird data 
+Model run at                     : 2022-01-01 11:41:31
+Estimation method                : bfgs
+Model diagnosis                  : successful convergence 
+Number of individuals            : 277
+Number of rows in database       : 32441
+Number of modelled outcomes      : 32441
+
+Number of cores used             :  6 
+Model without mixing
+
+LL(start)                        : -149719.1
+LL(0)                            : -149719.1
+LL(C)                            : Not applicable
+LL(final)                        : -112274.2
+Rho-square (0)                   :  0.2501 
+Adj.Rho-square (0)               :  0.25 
+AIC                              :  224566.5 
+BIC                              :  224642 
+
+
+Estimated parameters             :  9
+Time taken (hh:mm:ss)            :  00:04:44.02 
+     pre-estimation              :  00:01:12.01 
+     estimation                  :  00:01:45.19 
+     post-estimation             :  00:01:46.82 
+Iterations                       :  20  
+Min abs eigenvalue of Hessian    :  747.4057 
+
+Estimates:
+             Estimate        s.e.   t.rat.(0)  p(2-sided)    Rob.s.e. Rob.t.rat.(0)  p(2-sided)
+b_tc        -0.207644    0.002120    -97.9666      0.0000    0.056038      -3.70543  2.1103e-04
+b_sr         0.294077    0.005932     49.5719      0.0000    0.045464       6.46835   9.908e-11
+b_sr2       -0.005944  1.6703e-04    -35.5843      0.0000    0.002132      -2.78837    0.005297
+b_es         0.166923    0.003440     48.5207      0.0000    0.055885       2.98690    0.002818
+b_2nd_sr     0.018957    0.003089      6.1377   8.372e-10    0.010543       1.79805    0.072170
+b_3rd_sr     0.019734    0.003314      5.9540   2.617e-09    0.014129       1.39671    0.162502
+b_4th_sr     0.020018    0.003363      5.9532   2.630e-09    0.012287       1.62913    0.103286
+b_pr_nat    -0.014323    0.036555     -0.3918      0.6952    0.286040      -0.05007    0.960063
+b_pr_prov   -0.309839    0.016328    -18.9758      0.0000    0.102747      -3.01557    0.002565
+
+
+Overview of choices for MNL model component :
+                                  choice1  choice2  choice3  choice4  choice5  choice6  choice7
+Times available                  32441.00 32441.00 32441.00 32441.00 32441.00 32441.00 32441.00
+Times chosen                       544.00  1065.00  1208.00  1025.00   791.00   671.00   575.00
+Percentage chosen overall            1.68     3.28     3.72     3.16     2.44     2.07     1.77
+Percentage chosen when available     1.68     3.28     3.72     3.16     2.44     2.07     1.77
+                                  choice8 choice9 choice10 choice11 choice12 choice13 choice14
+Times available                  32441.00 32441.0 32441.00 32441.00 32441.00 32441.00 32441.00
+Times chosen                       517.00   551.0   477.00   544.00   573.00   669.00   671.00
+Percentage chosen overall            1.59     1.7     1.47     1.68     1.77     2.06     2.07
+Percentage chosen when available     1.59     1.7     1.47     1.68     1.77     2.06     2.07
+                                 choice15 choice16 choice17 choice18 choice19 choice20 choice21
+Times available                     32441  32441.0  32441.0 32441.00 32441.00 32441.00 32441.00
+Times chosen                          648    585.0    553.0   548.00   524.00   445.00   435.00
+Percentage chosen overall               2      1.8      1.7     1.69     1.62     1.37     1.34
+Percentage chosen when available        2      1.8      1.7     1.69     1.62     1.37     1.34
+                                 choice22 choice23 choice24 choice25 choice26 choice27 choice28
+Times available                  32441.00 32441.00    32441 32441.00 32441.00 32441.00 32441.00
+Times chosen                       383.00   341.00      326   274.00   282.00   257.00   252.00
+Percentage chosen overall            1.18     1.05        1     0.84     0.87     0.79     0.78
+Percentage chosen when available     1.18     1.05        1     0.84     0.87     0.79     0.78
+                                 choice29 choice30 choice31 choice32 choice33 choice34 choice35
+Times available                  32441.00 32441.00 32441.00 32441.00 32441.00 32441.00 32441.00
+Times chosen                       269.00   311.00   317.00   370.00   407.00   473.00   457.00
+Percentage chosen overall            0.83     0.96     0.98     1.14     1.25     1.46     1.41
+Percentage chosen when available     0.83     0.96     0.98     1.14     1.25     1.46     1.41
+                                 choice36 choice37 choice38 choice39 choice40 choice41 choice42
+Times available                  32441.00 32441.00  32441.0 32441.00 32441.00 32441.00 32441.00
+Times chosen                       466.00   448.00    453.0   403.00   428.00   420.00   375.00
+Percentage chosen overall            1.44     1.38      1.4     1.24     1.32     1.29     1.16
+Percentage chosen when available     1.44     1.38      1.4     1.24     1.32     1.29     1.16
+                                 choice43 choice44 choice45 choice46 choice47 choice48 choice49
+Times available                  32441.00 32441.00 32441.00 32441.00 32441.00 32441.00 32441.00
+Times chosen                       379.00   378.00   363.00   341.00   342.00   309.00   249.00
+Percentage chosen overall            1.17     1.17     1.12     1.05     1.05     0.95     0.77
+Percentage chosen when available     1.17     1.17     1.12     1.05     1.05     0.95     0.77
+                                 choice50 choice51 choice52 choice53 choice54 choice55 choice56
+Times available                  32441.00 32441.00 32441.00 32441.00 32441.00 32441.00 32441.00
+Times chosen                       229.00   207.00   217.00   174.00   178.00   164.00   146.00
+Percentage chosen overall            0.71     0.64     0.67     0.54     0.55     0.51     0.45
+Percentage chosen when available     0.71     0.64     0.67     0.54     0.55     0.51     0.45
+                                 choice57 choice58 choice59 choice60 choice61 choice62 choice63
+Times available                   32441.0 32441.00 32441.00 32441.00 32441.00 32441.00 32441.00
+Times chosen                        161.0   140.00   158.00   159.00   164.00   153.00   138.00
+Percentage chosen overall             0.5     0.43     0.49     0.49     0.51     0.47     0.43
+Percentage chosen when available      0.5     0.43     0.49     0.49     0.51     0.47     0.43
+                                 choice64 choice65 choice66 choice67 choice68 choice69 choice70
+Times available                  32441.00 32441.00 32441.00 32441.00 32441.00 32441.00 32441.00
+Times chosen                       151.00   144.00   127.00   147.00   160.00   164.00   175.00
+Percentage chosen overall            0.47     0.44     0.39     0.45     0.49     0.51     0.54
+Percentage chosen when available     0.47     0.44     0.39     0.45     0.49     0.51     0.54
+                                 choice71 choice72 choice73 choice74 choice75 choice76 choice77
+Times available                   32441.0 32441.00 32441.00 32441.00 32441.00 32441.00  32441.0
+Times chosen                        195.0   217.00   214.00   179.00   174.00   183.00    163.0
+Percentage chosen overall             0.6     0.67     0.66     0.55     0.54     0.56      0.5
+Percentage chosen when available      0.6     0.67     0.66     0.55     0.54     0.56      0.5
+                                 choice78 choice79 choice80 choice81 choice82 choice83 choice84
+Times available                  32441.00 32441.00 32441.00 32441.00 32441.00 32441.00 32441.00
+Times chosen                       156.00   133.00   107.00   123.00   107.00   132.00   154.00
+Percentage chosen overall            0.48     0.41     0.33     0.38     0.33     0.41     0.47
+Percentage chosen when available     0.48     0.41     0.33     0.38     0.33     0.41     0.47
+                                 choice85 choice86 choice87 choice88 choice89 choice90 choice91
+Times available                   32441.0 32441.00 32441.00 32441.00 32441.00 32441.00 32441.00
+Times chosen                        194.0   181.00   239.00   276.00   279.00   220.00   250.00
+Percentage chosen overall             0.6     0.56     0.74     0.85     0.86     0.68     0.77
+Percentage chosen when available      0.6     0.56     0.74     0.85     0.86     0.68     0.77
+                                 choice92 choice93 choice94 choice95 choice96 choice97 choice98
+Times available                  32441.00 32441.00 32441.00  32441.0 32441.00 32441.00 32441.00
+Times chosen                       239.00   193.00   180.00    129.0   164.00   152.00   137.00
+Percentage chosen overall            0.74     0.59     0.55      0.4     0.51     0.47     0.42
+Percentage chosen when available     0.74     0.59     0.55      0.4     0.51     0.47     0.42
+                                 choice99 choice100 choice101
+Times available                  32441.00  32441.00  32441.00
+Times chosen                        81.00     72.00     70.00
+Percentage chosen overall            0.25      0.22      0.22
+Percentage chosen when available     0.25      0.22      0.22
+
+
+Classical covariance matrix:
+                 b_tc        b_sr       b_sr2        b_es    b_2nd_sr    b_3rd_sr    b_4th_sr
+b_tc        4.492e-06   7.035e-09   3.496e-08  -1.401e-06  -5.596e-08  -4.368e-08  -3.689e-08
+b_sr        7.035e-09   3.519e-05  -8.571e-07  -5.884e-06  -5.850e-06  -5.708e-06  -5.721e-06
+b_sr2       3.496e-08  -8.571e-07   2.790e-08   1.781e-08  -1.785e-08  -2.246e-08  -2.228e-08
+b_es       -1.401e-06  -5.884e-06   1.781e-08   1.184e-05   2.778e-08   2.725e-08   4.433e-08
+b_2nd_sr   -5.596e-08  -5.850e-06  -1.785e-08   2.778e-08   9.539e-06   6.401e-06   6.401e-06
+b_3rd_sr   -4.368e-08  -5.708e-06  -2.246e-08   2.725e-08   6.401e-06   1.099e-05   6.404e-06
+b_4th_sr   -3.689e-08  -5.721e-06  -2.228e-08   4.433e-08   6.401e-06   6.404e-06   1.131e-05
+b_pr_nat   -1.830e-05   2.382e-05  -9.706e-07  -1.715e-06  -1.088e-06  -7.478e-07  -7.311e-07
+b_pr_prov  -2.554e-06  -1.874e-05   4.943e-07   5.274e-06  -9.952e-08  -1.622e-07  -1.405e-07
+             b_pr_nat   b_pr_prov
+b_tc       -1.830e-05  -2.554e-06
+b_sr        2.382e-05  -1.874e-05
+b_sr2      -9.706e-07   4.943e-07
+b_es       -1.715e-06   5.274e-06
+b_2nd_sr   -1.088e-06  -9.952e-08
+b_3rd_sr   -7.478e-07  -1.622e-07
+b_4th_sr   -7.311e-07  -1.405e-07
+b_pr_nat     0.001336   3.347e-05
+b_pr_prov   3.347e-05  2.6661e-04
+
+Robust covariance matrix:
+                 b_tc        b_sr       b_sr2        b_es    b_2nd_sr    b_3rd_sr    b_4th_sr
+b_tc         0.003140   -0.001083   7.754e-05   -0.002941  3.2020e-04  2.9548e-04  5.0745e-04
+b_sr        -0.001083    0.002067  -9.034e-05    0.001308 -2.0770e-04 -4.7852e-04 -3.4219e-04
+b_sr2       7.754e-05  -9.034e-05   4.544e-06  -9.022e-05   8.838e-06   1.977e-05   1.821e-05
+b_es        -0.002941    0.001308  -9.022e-05    0.003123 -2.9184e-04 -3.2308e-04 -5.1616e-04
+b_2nd_sr   3.2020e-04 -2.0770e-04   8.838e-06 -2.9184e-04  1.1115e-04  1.1367e-04  1.0233e-04
+b_3rd_sr   2.9548e-04 -4.7852e-04   1.977e-05 -3.2308e-04  1.1367e-04  1.9964e-04  1.4081e-04
+b_4th_sr   5.0745e-04 -3.4219e-04   1.821e-05 -5.1616e-04  1.0233e-04  1.4081e-04  1.5098e-04
+b_pr_nat    -0.011900    0.006316 -4.2189e-04    0.013046   -0.001102   -0.001607   -0.002119
+b_pr_prov    0.004498   -0.001191  1.0644e-04   -0.004284  3.5301e-04  2.7317e-04  6.9831e-04
+             b_pr_nat   b_pr_prov
+b_tc        -0.011900    0.004498
+b_sr         0.006316   -0.001191
+b_sr2     -4.2189e-04  1.0644e-04
+b_es         0.013046   -0.004284
+b_2nd_sr    -0.001102  3.5301e-04
+b_3rd_sr    -0.001607  2.7317e-04
+b_4th_sr    -0.002119  6.9831e-04
+b_pr_nat     0.081819   -0.016447
+b_pr_prov   -0.016447    0.010557
+
+Classical correlation matrix:
+                 b_tc        b_sr       b_sr2        b_es    b_2nd_sr    b_3rd_sr    b_4th_sr
+b_tc         1.000000  5.5947e-04     0.09874   -0.192145   -0.008548   -0.006218   -0.005176
+b_sr       5.5947e-04      1.0000    -0.86503   -0.288292   -0.319274   -0.290318   -0.286806
+b_sr2        0.098739     -0.8650     1.00000    0.031000   -0.034604   -0.040572   -0.039666
+b_es        -0.192145     -0.2883     0.03100    1.000000    0.002614    0.002390    0.003833
+b_2nd_sr    -0.008548     -0.3193    -0.03460    0.002614    1.000000    0.625275    0.616323
+b_3rd_sr    -0.006218     -0.2903    -0.04057    0.002390    0.625275    1.000000    0.574611
+b_4th_sr    -0.005176     -0.2868    -0.03967    0.003833    0.616323    0.574611    1.000000
+b_pr_nat    -0.236189      0.1098    -0.15896   -0.013635   -0.009634   -0.006172   -0.005948
+b_pr_prov   -0.073804     -0.1935     0.18123    0.093885   -0.001973   -0.002997   -0.002560
+             b_pr_nat   b_pr_prov
+b_tc        -0.236189   -0.073804
+b_sr         0.109822   -0.193486
+b_sr2       -0.158962    0.181227
+b_es        -0.013635    0.093885
+b_2nd_sr    -0.009634   -0.001973
+b_3rd_sr    -0.006172   -0.002997
+b_4th_sr    -0.005948   -0.002560
+b_pr_nat     1.000000    0.056069
+b_pr_prov    0.056069    1.000000
+
+Robust correlation matrix:
+                 b_tc        b_sr       b_sr2        b_es    b_2nd_sr    b_3rd_sr    b_4th_sr
+b_tc           1.0000     -0.4251      0.6491     -0.9390      0.5420      0.3732      0.7370
+b_sr          -0.4251      1.0000     -0.9322      0.5150     -0.4333     -0.7449     -0.6126
+b_sr2          0.6491     -0.9322      1.0000     -0.7574      0.3933      0.6565      0.6954
+b_es          -0.9390      0.5150     -0.7574      1.0000     -0.4953     -0.4092     -0.7517
+b_2nd_sr       0.5420     -0.4333      0.3933     -0.4953      1.0000      0.7631      0.7899
+b_3rd_sr       0.3732     -0.7449      0.6565     -0.4092      0.7631      1.0000      0.8110
+b_4th_sr       0.7370     -0.6126      0.6954     -0.7517      0.7899      0.8110      1.0000
+b_pr_nat      -0.7424      0.4857     -0.6919      0.8161     -0.3655     -0.3976     -0.6030
+b_pr_prov      0.7812     -0.2549      0.4860     -0.7460      0.3259      0.1882      0.5531
+             b_pr_nat   b_pr_prov
+b_tc          -0.7424      0.7812
+b_sr           0.4857     -0.2549
+b_sr2         -0.6919      0.4860
+b_es           0.8161     -0.7460
+b_2nd_sr      -0.3655      0.3259
+b_3rd_sr      -0.3976      0.1882
+b_4th_sr      -0.6030      0.5531
+b_pr_nat       1.0000     -0.5596
+b_pr_prov     -0.5596      1.0000
+
+ 20 worst outliers in terms of lowest average per choice prediction:
+          ID Avg prob per choice
+ obsr1004857                   0
+  obsr110141                   0
+  obsr117062                   0
+  obsr137845                   0
+  obsr159477                   0
+  obsr165977                   0
+  obsr229228                   0
+   obsr24588                   0
+  obsr267011                   0
+  obsr267531                   0
+  obsr272870                   0
+  obsr277689                   0
+  obsr283574                   0
+  obsr283589                   0
+  obsr285954                   0
+  obsr307926                   0
+  obsr319430                   0
+  obsr326091                   0
+  obsr326450                   0
+  obsr333291                   0
+
+Changes in parameter estimates from starting values:
+              Initial    Estimate  Difference
+b_tc            0.000   -0.207644   -0.207644
+b_sr            0.000    0.294077    0.294077
+b_sr2           0.000   -0.005944   -0.005944
+b_es            0.000    0.166923    0.166923
+b_2nd_sr        0.000    0.018957    0.018957
+b_3rd_sr        0.000    0.019734    0.019734
+b_4th_sr        0.000    0.020018    0.020018
+b_pr_nat        0.000   -0.014323   -0.014323
+b_pr_prov       0.000   -0.309839   -0.309839
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value                       
+outputDirectory        "output/"                   
+modelName              "mnl_1"                     
+modelDescr             "MNL model with ebird data "
+indivID                "observer_id"               
+nCores                 "6"                         
+workInLogs             "TRUE"                      
+debug                  "FALSE"                     
+seed                   "13"                        
+mixing                 "FALSE"                     
+HB                     "FALSE"                     
+noValidation           "FALSE"                     
+noDiagnostics          "FALSE"                     
+panelData              "TRUE"                      
+analyticGrad           "FALSE"                     
+analyticGrad_manualSet "FALSE"                     
+
+Hessian routines attempted
+--------------
+numerical second derivative of LL (using numDeriv)
+
+Scaling in estimation
+--------------
+                Value
+b_tc      0.207648223
+b_sr      0.294069944
+b_sr2     0.005943768
+b_es      0.166921890
+b_2nd_sr  0.018956498
+b_3rd_sr  0.019734374
+b_4th_sr  0.020017787
+b_pr_nat  0.014323411
+b_pr_prov 0.309839000
+
+Scaling used in computing Hessian
+--------------
+                Value
+b_tc      0.207644124
+b_sr      0.294076819
+b_sr2     0.005943682
+b_es      0.166922829
+b_2nd_sr  0.018956508
+b_3rd_sr  0.019734381
+b_4th_sr  0.020017794
+b_pr_nat  0.014323410
+b_pr_prov 0.309839019
+
+
+apollo_probabilities
+--------------------
+function(apollo_beta, apollo_inputs, functionality="estimate") {
+  
+  ### Attach inputs and detach after function exit
+  apollo_attach(apollo_beta, apollo_inputs)
+  on.exit(apollo_detach(apollo_beta, apollo_inputs))
+  
+  ### Create list of probabilities P
+  P = list()
+  
+    J = 101 # need this if parallel (nCores > 1 in apollo_controls)
+  
+  V= list( ) 
+  avail = list()
+  
+  # set up utilities for hotspots
+  for ( j in 1:J ) {
+    park = get(paste0("park_",j))
+    V[[ paste0('choice', j ) ]] = b_tc * get(paste0('tc_', j)) + 
+      b_sr * get(paste0("sr_", j)) + 
+      b_sr2 * (get(paste0("sr_", j)))^2 +
+      b_es * get(paste0("es_", j)) +
+      b_2nd_sr * get(paste0("sr_", j))*(season == "spring") + 
+      b_3rd_sr * get(paste0("sr_", j))*(season == "summer") + 
+      b_4th_sr * get(paste0("sr_", j))*(season == "fall") +
+      b_pr_nat * (get(paste0("park_",j))=="nat") +
+      b_pr_prov *(get(paste0("park_",j))=="prov")
+      
+
+      
+      
+    avail[[paste0("choice", j)]]=get(paste0("avail_", j))
+  }
+  
+  
+  ###mnl_settings
+  mnl_settings = list(
+    alternatives = setNames (1:J,  names(V)) ,
+    avail = avail ,
+    choiceVar = choice ,
+    V = V
+  )
+  
+  ### Compute probabilities using MNL model
+  P[['model']] = apollo_mnl(mnl_settings, functionality)
+  
+  ### Take product across observation for same individual (recognizing the repeated choice nature of our data)
+  P = apollo_panelProd(P, apollo_inputs, functionality)
+  
+  ### Prepare and return outputs of function
+  P = apollo_prepareProb(P, apollo_inputs, functionality)
+  return(P)

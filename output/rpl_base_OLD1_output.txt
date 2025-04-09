@@ -1,0 +1,426 @@
+Model run by pal453 using Apollo 0.2.7 on R 4.1.2 for Windows.
+www.ApolloChoiceModelling.com
+
+Model name                       : rpl_base
+Model description                : MXL model with ebird data 
+Model run at                     : 2022-02-01 15:47:23
+Estimation method                : bfgs
+Model diagnosis                  : successful convergence 
+Number of individuals            : 104
+Number of rows in database       : 500
+Number of modelled outcomes      : 500
+
+Number of cores used             :  6 
+Number of inter-individual draws : 50 (halton)
+
+LL(start)                        : -2608.5
+LL(0)                            : -2912.98
+LL(C)                            : Not applicable
+LL(final)                        : -2305.89
+Rho-square (0)                   :  0.2084 
+Adj.Rho-square (0)               :  0.2074 
+AIC                              :  4617.78 
+BIC                              :  4630.43 
+
+Estimated parameters             :  3
+Time taken (hh:mm:ss)            :  00:01:53.58 
+     pre-estimation              :  00:00:33.73 
+     estimation                  :  00:00:56.16 
+     post-estimation             :  00:00:23.69 
+Iterations                       :  19  
+Min abs eigenvalue of Hessian    :  2954.109 
+
+Unconstrained optimisation.
+
+Estimates:
+            Estimate        s.e.   t.rat.(0)    Rob.s.e. Rob.t.rat.(0)
+b_tc        -0.26340    0.018341     -14.361     0.07317        -3.600
+b_sr         0.19876    0.009997      19.882     0.01206        16.480
+sigma_sr     0.04243    0.014174       2.993     0.02022         2.099
+
+WARNING: some alternatives are never chosen in your data!
+WARNING: some alternatives are always chosen when available!
+
+Overview of choices for MNL model component :
+                                 choice1 choice2 choice3 choice4 choice5 choice6 choice7
+Times available                    500.0     500     500   500.0     500     500     500
+Times chosen                         1.0       0       0     2.0      20      10       0
+                                 choice8 choice9 choice10 choice11 choice12 choice13
+Times available                      500   500.0    500.0      500    500.0    500.0
+Times chosen                          10     4.0      2.0        5     13.0      4.0
+                                 choice14 choice15 choice16 choice17 choice18 choice19
+Times available                     500.0    500.0      500    500.0    500.0      500
+Times chosen                          3.0      1.0        0      1.0      1.0        0
+                                 choice20 choice21 choice22 choice23 choice24 choice25
+Times available                     500.0    500.0    500.0    500.0      500      500
+Times chosen                          3.0      2.0      6.0     11.0        5        0
+                                 choice26 choice27 choice28 choice29 choice30 choice31
+Times available                       500    500.0      500    500.0    500.0    500.0
+Times chosen                            0      1.0        0      1.0      2.0      3.0
+                                 choice32 choice33 choice34 choice35 choice36 choice37
+Times available                       500    500.0    500.0    500.0      500    500.0
+Times chosen                            0      2.0      4.0      1.0        0      2.0
+                                 choice38 choice39 choice40 choice41 choice42 choice43
+Times available                       500      500    500.0      500      500      500
+Times chosen                            0        0      9.0        0        0        0
+                                 choice44 choice45 choice46 choice47 choice48 choice49
+Times available                       500      500      500    500.0    500.0    500.0
+Times chosen                            0        0        5      2.0      1.0      1.0
+                                 choice50 choice51 choice52 choice53 choice54 choice55
+Times available                       500    500.0    500.0    500.0      500    500.0
+Times chosen                            5      3.0     14.0      6.0        0      9.0
+                                 choice56 choice57 choice58 choice59 choice60 choice61
+Times available                     500.0    500.0      500      500    500.0      500
+Times chosen                          2.0      4.0        0        0      3.0        0
+                                 choice62 choice63 choice64 choice65 choice66 choice67
+Times available                     500.0      500      500    500.0    500.0    500.0
+Times chosen                          2.0        0        0      2.0      1.0      1.0
+                                 choice68 choice69 choice70 choice71 choice72 choice73
+Times available                       500    500.0      500      500    500.0    500.0
+Times chosen                            0      4.0        5        0      2.0      7.0
+                                 choice74 choice75 choice76 choice77 choice78 choice79
+Times available                     500.0    500.0    500.0      500    500.0      500
+Times chosen                          1.0      1.0      3.0        0     12.0        0
+                                 choice80 choice81 choice82 choice83 choice84 choice85
+Times available                     500.0      500    500.0    500.0    500.0      500
+Times chosen                          2.0        0      2.0      2.0      2.0        5
+                                 choice86 choice87 choice88 choice89 choice90 choice91
+Times available                       500      500    500.0      500      500    500.0
+Times chosen                            0        0      2.0        0        0      1.0
+                                 choice92 choice93 choice94 choice95 choice96 choice97
+Times available                     500.0    500.0      500    500.0      500    500.0
+Times chosen                          2.0      2.0        0      3.0        0      1.0
+                                 choice98 choice99 choice100 choice101 choice102
+Times available                     500.0      500       500     500.0     500.0
+Times chosen                          1.0        0         0       4.0       2.0
+                                 choice103 choice104 choice105 choice106 choice107
+Times available                      500.0     500.0       500     500.0     500.0
+Times chosen                           1.0       1.0         0       2.0       1.0
+                                 choice108 choice109 choice110 choice111 choice112
+Times available                      500.0     500.0     500.0     500.0     500.0
+Times chosen                           1.0       1.0       1.0       1.0       2.0
+                                 choice113 choice114 choice115 choice116 choice117
+Times available                        500     500.0     500.0     500.0       500
+Times chosen                             0       2.0       1.0       2.0         0
+                                 choice118 choice119 choice120 choice121 choice122
+Times available                      500.0       500     500.0       500     500.0
+Times chosen                           3.0         0       1.0         0       1.0
+                                 choice123 choice124 choice125 choice126 choice127
+Times available                        500     500.0       500     500.0     500.0
+Times chosen                             0       2.0         5       2.0       1.0
+                                 choice128 choice129 choice130 choice131 choice132
+Times available                        500       500     500.0     500.0     500.0
+Times chosen                             0         0       1.0       2.0       1.0
+                                 choice133 choice134 choice135 choice136 choice137
+Times available                        500     500.0     500.0     500.0     500.0
+Times chosen                             0       3.0       1.0       1.0       3.0
+                                 choice138 choice139 choice140 choice141 choice142
+Times available                      500.0       500     500.0     500.0       500
+Times chosen                           1.0         0       4.0       2.0         0
+                                 choice143 choice144 choice145 choice146 choice147
+Times available                      500.0     500.0     500.0     500.0     500.0
+Times chosen                           2.0       2.0       1.0       3.0       1.0
+                                 choice148 choice149 choice150 choice151 choice152
+Times available                      500.0       500     500.0       500     500.0
+Times chosen                           3.0         0       2.0         0       4.0
+                                 choice153 choice154 choice155 choice156 choice157
+Times available                      500.0     500.0       500       500     500.0
+Times chosen                           1.0       4.0         0         0       3.0
+                                 choice158 choice159 choice160 choice161 choice162
+Times available                      500.0       500     500.0       500       500
+Times chosen                           1.0         0       2.0         0         0
+                                 choice163 choice164 choice165 choice166 choice167
+Times available                        500       500     500.0     500.0     500.0
+Times chosen                             0         0       2.0       1.0       4.0
+                                 choice168 choice169 choice170 choice171 choice172
+Times available                        500     500.0       500     500.0     500.0
+Times chosen                             5       6.0         0       1.0       1.0
+                                 choice173 choice174 choice175 choice176 choice177
+Times available                      500.0       500     500.0     500.0       500
+Times chosen                           3.0         5       3.0       4.0         0
+                                 choice178 choice179 choice180 choice181 choice182
+Times available                      500.0     500.0     500.0     500.0     500.0
+Times chosen                          12.0       8.0       2.0       1.0       1.0
+                                 choice183 choice184 choice185 choice186 choice187
+Times available                      500.0       500     500.0     500.0     500.0
+Times chosen                           3.0         5       1.0       2.0       3.0
+                                 choice188 choice189 choice190 choice191 choice192
+Times available                        500     500.0     500.0       500     500.0
+Times chosen                             0       1.0       2.0         0       1.0
+                                 choice193 choice194 choice195 choice196 choice197
+Times available                        500     500.0     500.0       500       500
+Times chosen                             0       1.0       2.0         0         0
+                                 choice198 choice199 choice200 choice201 choice202
+Times available                        500       500       500     500.0     498.0
+Times chosen                             0         0         0       1.0       1.0
+                                 choice203 choice204 choice205 choice206 choice207
+Times available                      489.0       487       476       465       449
+Times chosen                           1.0         0         0         0         0
+                                 choice208 choice209 choice210 choice211 choice212
+Times available                     447.00       446       434       420    420.00
+Times chosen                          3.00         0         0         0      1.00
+                                 choice213 choice214 choice215 choice216 choice217
+Times available                        411    411.00       411       404    400.00
+Times chosen                             0      1.00         0         0      1.00
+                                 choice218 choice219 choice220 choice221 choice222
+Times available                        400       400       400       400       400
+Times chosen                             0         0         0         0         0
+                                 choice223 choice224 choice225 choice226 choice227
+Times available                        400       400    399.00    399.00    399.00
+Times chosen                             0         0      1.00      1.00      1.00
+                                 choice228 choice229 choice230 choice231 choice232
+Times available                     399.00       399       399       399    399.00
+Times chosen                          1.00         0         0         0      3.00
+                                 choice233 choice234 choice235 choice236 choice237
+Times available                      399.0       399    399.00       399       399
+Times chosen                           2.0         0      1.00         0         0
+                                 choice238 choice239 choice240 choice241 choice242
+Times available                     399.00       399       399    399.00     399.0
+Times chosen                          1.00         0         0      1.00       2.0
+                                 choice243 choice244 choice245 choice246 choice247
+Times available                     399.00       399       399       399       399
+Times chosen                          1.00         0         0         0         0
+                                 choice248 choice249 choice250 choice251 choice252
+Times available                        399       399       399       399       399
+Times chosen                             0         0         0         0         0
+                                 choice253 choice254 choice255 choice256 choice257
+Times available                        399       399       399       399       399
+Times chosen                             0         0         0         0         0
+                                 choice258 choice259 choice260 choice261 choice262
+Times available                      399.0    397.00       397       397       397
+Times chosen                           2.0      1.00         0         0         0
+                                 choice263 choice264 choice265 choice266 choice267
+Times available                        397       397       397       397       397
+Times chosen                             0         0         0         0         0
+                                 choice268 choice269 choice270 choice271 choice272
+Times available                        397    397.00    397.00    397.00    397.00
+Times chosen                             0      3.00      1.00      1.00      1.00
+                                 choice273 choice274 choice275 choice276 choice277
+Times available                        397    397.00    397.00       397    397.00
+Times chosen                             0      1.00      3.00         0      3.00
+                                 choice278 choice279 choice280 choice281 choice282
+Times available                     397.00     397.0    397.00    397.00       397
+Times chosen                          1.00       2.0      1.00      1.00         0
+                                 choice283 choice284 choice285 choice286 choice287
+Times available                        397       397       397       397       397
+Times chosen                             0         0         0         0         0
+                                 choice288 choice289 choice290 choice291 choice292
+Times available                        397       397       397       397       397
+Times chosen                             0         0         0         0         0
+                                 choice293 choice294 choice295 choice296 choice297
+Times available                        397       397       397    397.00    397.00
+Times chosen                             0         0         0      3.00      1.00
+                                 choice298 choice299 choice300 choice301 choice302
+Times available                        397     397.0    397.00    397.00    397.00
+Times chosen                             0       2.0      1.00      3.00      1.00
+                                 choice303 choice304 choice305 choice306 choice307
+Times available                        397    397.00       397       391       391
+Times chosen                             0      1.00         0         0         0
+                                 choice308 choice309 choice310 choice311 choice312
+Times available                     391.00       391       391       391       391
+Times chosen                          1.00         0         0         0         0
+                                 choice313 choice314 choice315 choice316 choice317
+Times available                     391.00       391       391       391       391
+Times chosen                          5.00         0         0         0         0
+                                 choice318 choice319 choice320 choice321 choice322
+Times available                     391.00       391       391       391       391
+Times chosen                          1.00         0         0         0         0
+                                 choice323 choice324 choice325 choice326 choice327
+Times available                        391       391       391       391       391
+Times chosen                             0         0         0         0         0
+                                 choice328 choice329 choice330 choice331 choice332
+Times available                        391       391    391.00       391    391.00
+Times chosen                             0         0      1.00         0      1.00
+                                 choice333 choice334 choice335 choice336 choice337
+Times available                     391.00    391.00       391       391       391
+Times chosen                          4.00      1.00         0         0         0
+                                 choice338 choice339 choice340 choice341 choice342
+Times available                        391       391       391       391       391
+Times chosen                             0         0         0         0         0
+                                 choice343 choice344 choice345 choice346 choice347
+Times available                        391       391       391       391    391.00
+Times chosen                             0         0         0         0      5.00
+                                 choice348 choice349 choice350 choice351 choice352
+Times available                      334.0     334.0       334       334       333
+Times chosen                           1.0       1.0         0         0         0
+                                 choice353 choice354 choice355 choice356 choice357
+Times available                        333     333.0       333       333       333
+Times chosen                             0       1.0         0         0         0
+                                 choice358 choice359 choice360 choice361 choice362
+Times available                        333     333.0       333       333       333
+Times chosen                             0       1.0         0         0         0
+                                 choice363 choice364 choice365 choice366 choice367
+Times available                        333       333       333     333.0       333
+Times chosen                             0         0         0       1.0         0
+                                 choice368 choice369 choice370 choice371 choice372
+Times available                        333       333       333       333       333
+Times chosen                             0         0         0         0         0
+                                 choice373 choice374 choice375 choice376 choice377
+Times available                        333     332.0       331       331       331
+Times chosen                             0       1.0         0         0         0
+                                 choice378 choice379 choice380 choice381 choice382
+Times available                      331.0       331       316       316       314
+Times chosen                           2.0         0         0         0         0
+                                 choice383 choice384 choice385 choice386 choice387
+Times available                        312       312       312       302       297
+Times chosen                             0         0         0         0         0
+                                 choice388 choice389 choice390 choice391 choice392
+Times available                        265       221       221       195       193
+Times chosen                             0         0         0         0         0
+                                 choice393 choice394 choice395 choice396 choice397
+Times available                        192       182       146       130       130
+Times chosen                             0         0         0         0         0
+                                 choice398 choice399 choice400 choice401 choice402
+Times available                     130.00       130        60        17         1
+Times chosen                          1.00         0         0         0         0
+ [ reached getOption("max.print") -- omitted 2 rows ]
+
+
+Classical covariance matrix:
+                b_tc        b_sr    sigma_sr
+b_tc      3.3639e-04   1.703e-05  -1.353e-05
+b_sr       1.703e-05   9.994e-05   3.694e-05
+sigma_sr  -1.353e-05   3.694e-05  2.0091e-04
+
+Robust covariance matrix:
+                b_tc        b_sr    sigma_sr
+b_tc        0.005353  2.0569e-04  -4.043e-05
+b_sr      2.0569e-04  1.4546e-04  1.4995e-04
+sigma_sr  -4.043e-05  1.4995e-04  4.0870e-04
+
+Classical correlation matrix:
+                b_tc        b_sr    sigma_sr
+b_tc         1.00000     0.09290    -0.05206
+b_sr         0.09290     1.00000     0.26066
+sigma_sr    -0.05206     0.26066     1.00000
+
+Robust correlation matrix:
+                b_tc        b_sr    sigma_sr
+b_tc         1.00000      0.2331    -0.02733
+b_sr         0.23308      1.0000     0.61499
+sigma_sr    -0.02733      0.6150     1.00000
+
+ 20 worst outliers in terms of lowest average per choice prediction:
+         ID Avg prob per choice
+ obsr387721        0.0001628811
+ obsr198167        0.0003958152
+ obsr570137        0.0006515822
+ obsr342079        0.0010510748
+ obsr756531        0.0010735329
+ obsr565753        0.0011250972
+ obsr121162        0.0013360422
+ obsr110141        0.0013520914
+ obsr522662        0.0013589059
+ obsr556154        0.0015920078
+ obsr942991        0.0017161989
+ obsr435276        0.0020676771
+ obsr230942        0.0020694184
+ obsr613062        0.0022425381
+ obsr940855        0.0025671775
+ obsr550462        0.0026737630
+ obsr108499        0.0034521539
+ obsr326450        0.0035220167
+ obsr277689        0.0038385682
+ obsr117062        0.0046615815
+
+Changes in parameter estimates from starting values:
+             Initial    Estimate  Difference
+b_tc          0.0000    -0.26340    -0.26340
+b_sr          0.0000     0.19876     0.19876
+sigma_sr      0.1000     0.04243    -0.05757
+
+Settings and functions used in model definition:
+
+apollo_control
+--------------
+                       Value                       
+outputDirectory        "output/"                   
+modelName              "rpl_base"                  
+modelDescr             "MXL model with ebird data "
+indivID                "observer_id"               
+mixing                 "TRUE"                      
+workInLogs             "TRUE"                      
+calculateLLC           "FALSE"                     
+nCores                 "6"                         
+debug                  "FALSE"                     
+seed                   "13"                        
+HB                     "FALSE"                     
+noValidation           "FALSE"                     
+noDiagnostics          "FALSE"                     
+panelData              "TRUE"                      
+analyticGrad           "FALSE"                     
+analyticGrad_manualSet "FALSE"                     
+
+Hessian routines attempted
+--------------
+numerical second derivative of LL (using numDeriv)
+
+Scaling in estimation
+--------------
+              Value
+b_tc     0.26336695
+b_sr     0.19874576
+sigma_sr 0.04243134
+
+Scaling used in computing Hessian
+--------------
+              Value
+b_tc     0.26340266
+b_sr     0.19876230
+sigma_sr 0.04242636
+
+
+apollo_randCoeff
+----------------
+function(apollo_beta, apollo_inputs){
+  randcoeff = list()
+  
+  randcoeff[["beta_sr"]] = b_sr + sigma_sr * draws_sr
+  return(randcoeff)
+}
+
+
+apollo_probabilities
+--------------------
+function(apollo_beta, apollo_inputs, functionality="estimate") {
+  
+  ### Attach inputs and detach after function exit
+  apollo_attach(apollo_beta, apollo_inputs)
+  on.exit(apollo_detach(apollo_beta, apollo_inputs))
+  
+  ### Create list of probabilities P
+  P = list()
+  V= list( ) 
+  avail = list()  ### List of utilities: these must use the same names as in mnl_settings, order is irrelevant
+
+  # set up utilities for hotspots
+  for ( j in 1:apollo_inputs$J ) {
+    V[[ paste0('choice', j ) ]] = b_tc * get(paste0('tc_', j)) + 
+      beta_sr * get(paste0("sr_", j)) 
+    avail[[paste0("choice", j)]]=get(paste0("avail_", j))
+  }
+  
+  ### Define settings for MNL model component
+  ###mnl_settings
+  mnl_settings = list(
+    alternatives = setNames (1:apollo_inputs$J,  names(V)) ,
+    avail = avail ,
+    choiceVar = choice ,
+    V = V
+  )
+  
+  
+  ### Compute probabilities using MNL model
+  P[['model']] = apollo_mnl(mnl_settings, functionality)
+  
+  ### Take product across observation for same individual
+  P = apollo_panelProd(P, apollo_inputs, functionality)
+  
+  ### Average across inter-individual draws
+  P = apollo_avgInterDraws(P, apollo_inputs, functionality)
+  
+  ### Prepare and return outputs of function
+  P = apollo_prepareProb(P, apollo_inputs, functionality)
+  return(P)
+}
+<bytecode: 0x0000019eb84ea190>
